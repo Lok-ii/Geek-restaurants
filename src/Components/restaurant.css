@@ -1,0 +1,78 @@
+.restaruantCard{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    border-radius: 0.5rem;
+    height: 13.75rem;
+    box-shadow: 1px 1px 12px -10px #000;
+}
+
+.upperContainer{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding: 1rem;
+    gap: 0.8rem;
+}
+.nameTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.ratingContainer{
+    display: flex;
+    align-items: center;
+}
+
+.fa-star{
+    color: #D0D5DA;
+}
+
+.checked{
+    color: #FBCC14;
+}
+
+.addressContainer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4B5563;
+    font-size: 0.9rem;
+}
+
+.code{
+    color: #4B5563;
+    font-size: 0.9rem;
+}
+
+.cuisineContainer{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F5F6;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    color: #22C55E;
+}
+
+.cuisine{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+.cuisineContainer a{
+    color: #3B82F6;
+    text-decoration: none;
+}
+
+.cuisineContainer a:hover{
+    text-decoration: underline;
+}

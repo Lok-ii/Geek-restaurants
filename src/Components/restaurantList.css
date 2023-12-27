@@ -1,0 +1,43 @@
+.restaurantList{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    height: auto;
+    row-gap: 2rem;
+    padding: 2rem 0;
+    gap: 3rem;
+}
+
+.form{
+    padding: 3rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+#searchValue{
+    border: 0.5px solid rgb(229, 231, 235);
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    font-family: inherit;
+}
+
+.ratingInput{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+#rating{
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(229, 231, 235);
+    padding-left: 0.5rem;
+}
